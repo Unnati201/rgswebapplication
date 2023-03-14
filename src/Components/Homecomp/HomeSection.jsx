@@ -12,26 +12,32 @@ import ClientStory from '../../Pages/SuccessStroies/ClientStory';
 import Dataflow from '../../Pages/DataSection/Dataflow';
 import Footer from '../../Pages/Footers/Footer';
 import NewPartner from '../../Pages/OurNewPartner/NewPartner';
+import NavbarNew from '../../Pages/Newnav/NavbarNew';
+import { NavLink } from 'react-router-dom';
+
 
 
 const HomeSection = () => {
   return (
     <div>
-     
-  <Home/>
+      {/* <NavbarNew/>     */}
+    
+    <Home/>  
   <Rgsbox/>
       <Solving/>
       <Solvingdata/>
+      
       <Services/>
+    
       <Industry/>
 
        {/* <OurPartner/>  */}
-       <NewPartner/>
+       <NewPartner/> 
        <ClientStory/> 
        
       <Career/>
      <Dataflow/> 
-       <Footer/>  
+       <Footer/> 
     </div>
   )
 }

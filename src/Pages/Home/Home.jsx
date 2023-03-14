@@ -63,7 +63,9 @@ const Home = () => {
                   playsInline
                   autoPlay
                   loop
-                ></video>
+                >
+                  
+                </video>
 
             <h3 className='h3-homestyle'>{slide.heading}</h3>
 
