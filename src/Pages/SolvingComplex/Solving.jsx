@@ -17,7 +17,7 @@ const Solving = () => {
                   autoPlay
                   loop
                 ></video>
-                <p className="solving-last-p-style">We help CXO's and enterprises solve their most complex technology and business challenges. Our expertise is in our ability to help you sustain, grow and stay ahead of the curve</p>
+                <p className="solving-last-p-style">We help CXO's and enterprises solve their most complex technology <br/>and business challenges. Our expertise is in our ability to help you sustain, grow and stay ahead of the curve</p>
                 </div>
 
     

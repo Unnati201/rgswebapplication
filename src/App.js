@@ -19,6 +19,10 @@ import HomeSection from './Components/Homecomp/HomeSection';
 import Navbar from './Components/Navbar/Navbar';
 //  import Footer from './Pages/Footers/Footer';
 import DataEngineerSec from './Components/DataEngineerComp/DataEngineerSec';
+import Footer from './Pages/NewFooter/Footer';
+
+import ContactPage from './Components/Contact/ContactPage';
+import Banking from './Components/Banking&Finance/Banking';
 
 
 function App() {
@@ -48,11 +52,15 @@ function App() {
 
           {/* <Route path='/dataeng' element={<DataEngineer/>} /> */}
           <Route path='/dataeng' element={<DataEngineerSec />} />
+          
 
           <Route path='/cloudeng' element={<CloudEngineer />} />
+          <Route path='/contact' element={<ContactPage />} />
+
+          <Route path='/banking' element={<Banking />} />
         </Routes>
       </Router>
-      {/* <Footer/>  */}
+     
       </section>
     </div>
   );

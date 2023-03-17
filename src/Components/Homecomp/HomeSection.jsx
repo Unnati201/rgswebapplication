@@ -10,11 +10,14 @@ import Solving from '../../Pages/SolvingComplex/Solving';
 import Solvingdata from '../../Pages/SolvingComplex/Solvingdata';
 import ClientStory from '../../Pages/SuccessStroies/ClientStory';
 import Dataflow from '../../Pages/DataSection/Dataflow';
-import Footer from '../../Pages/Footers/Footer';
+// import Footer from '../../Pages/Footers/Footer';
 import NewPartner from '../../Pages/OurNewPartner/NewPartner';
 import NavbarNew from '../../Pages/Newnav/NavbarNew';
 import { NavLink } from 'react-router-dom';
+import HomeSlides from '../../Pages/HomeSlide/HomeSlides';
 
+import Footer from '../../Pages/NewFooter/Footer';
+import Careercards from '../../Pages/Career/Careercards';
 
 
 const HomeSection = () => {
@@ -22,7 +25,8 @@ const HomeSection = () => {
     <div>
       {/* <NavbarNew/>     */}
     
-    <Home/>  
+    {/* <Home/>  */}
+    <HomeSlides/> 
   <Rgsbox/>
       <Solving/>
       <Solvingdata/>
@@ -36,8 +40,11 @@ const HomeSection = () => {
        <ClientStory/> 
        
       <Career/>
+      <Careercards/>
      <Dataflow/> 
-       <Footer/> 
+     
+       {/* <Footer/>  */}
+       <Footer/>
     </div>
   )
 }

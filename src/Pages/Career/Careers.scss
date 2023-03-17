@@ -30,10 +30,10 @@
     background-size:contain;
     //padding-left: 22rem;
     object-fit:cover;
+    overflow: hidden;
    // margin-bottom:20rem;
     //margin:1rem;
    
-
 
    
    // vertical-align:middle;
@@ -45,7 +45,7 @@
    transition-duration:0.8s;
    
 
-}
+}  
 
 .career-img:hover{
     transform: scale(1.1);
@@ -53,7 +53,7 @@
 }
     
    
-.career-card-slide{
+/*.career-card-slide{
     background-color: #f3f3f3;
 bottom: -246rem;
     color: #000;
@@ -63,7 +63,7 @@ bottom: -246rem;
     position: absolute;
     right: 65px;
     text-align: left;
-}
+} */
 
 .btn-no-effect{
     border-radius: 0;

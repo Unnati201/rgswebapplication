@@ -9,6 +9,7 @@ Key Industries and Verticals</h2>
       <div className='industry-wrapp'>
      <div className="industry-first-1">
       <h3  className='industry-font1'>Banking <br/> and Financial Services</h3>
+      <img className="indust-img" src="rgs-img/Banking.png" alt=""></img>
      </div>
      <div className="industry-first-2">
      <h3  className='industry-font1'>Insurance</h3>
@@ -20,6 +21,7 @@ Key Industries and Verticals</h2>
      <div className="industry-first-4">
      <h3  className='industry-font1'>Healthcare, <br/> Pharma <br/> and Lifesciences
 </h3>
+<img className="indust-img" src="rgs-img/lifescience.png" alt=""></img>
      </div>
      <div className="industry-first-5">
      <h3  className='industry-font1'>Retail, Consumer <br/> Products <br/>and Goods

@@ -6,6 +6,7 @@ export const links = [
         {
           Head: "Data Engineering and Solutions",
           sublink: [
+            { name: "Data Engineering", link: "/dataeng"},
             { name: "Artificial Intelligence", link: "/" },
             { name: "Machine Learning", link: "/" },
             { name: "Data Science", link: "/" },
@@ -16,6 +17,9 @@ export const links = [
         {
           Head: "Digital Engineering and Transformation",
           sublink: [
+
+            { name: "Digital Engineer", link: "/digitaleng" },
+            
             { name: "Digital Platform", link: "/" },
             { name: "Customer Experience and Management", link: "/" },
             { name: "System Engagement", link: "/" },
@@ -25,6 +29,8 @@ export const links = [
         {
           Head: "Cloud Engineer and Platform",
           sublink: [
+            { name: "Cloud Engineering", link: "/cloudeng" },
+
             { name: "Cloud Services", link: "/" },
             { name: "Network Services", link: "/" },
             { name: "Cloud Platforms", link: "/" },
@@ -52,7 +58,7 @@ export const links = [
         {
           Head: "",
           sublink: [
-            { name: "Banking and Finance Services", link: "/" },
+            { name: "Banking and Finance Services", link: "/banking" },
             { name: "Insurance", link: "/" },
             { name: "Travel and Transportation and Hospitality", link: "/" },
             { name: "Healthcare Pharma and Life Science", link: "/" },

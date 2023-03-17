@@ -61,7 +61,7 @@ const NavbarNew = () => {
           
 
           <li>
-          <Link to="/contat" className="py-5 px-11 inline-block mx-20  bg-[#00ffff] ">
+          <Link to="/contact" className="py-5 px-11 inline-block mx-20  bg-[#00ffff] ">
               Contact
             </Link>
           </li>
